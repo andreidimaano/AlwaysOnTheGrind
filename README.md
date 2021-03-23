@@ -50,3 +50,33 @@ console.log(["will", ...words, "understand"]);
 
 JS is not class-based liked Java or C++. JS is prototyped based. There is one construct that exists in JS - Objects. Each Object holds a property which holds a link to another object called its prototype. The prototype object has a prototype of its own - this chain continues until an object is reached with null as its prototype.
 
+## Chapter 8 - 11
+
+### Exceptions
+
+Don't just blanket catch exceptions. When an exception makes it all the way to the bottom of the stack without being caught, it gets handled by the environment.
+
+We want to catch a specific kind of exception. We can do this by checking in the catch block whtether the exception we got is the one we are interesting in and rethrowing it otherwise.
+
+```
+class InputError extends Error {}
+
+function promptDirection(question) {
+    let result = prompt(question);
+    if (result.toLowerCase() == "left") return "L";
+    if (result.toLowerCase() == "right") return "R";
+    throw new InputError("Invalid direction: " + result);
+}
+
+try{
+    //code here
+} catch (e) {
+    if (e instanceof InputError) {
+        console.log()
+    } else {
+        throw e;
+    }
+}
+```
+
+
