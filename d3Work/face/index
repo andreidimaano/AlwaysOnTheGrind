@@ -1,0 +1,47 @@
+Last login: Mon Jul 12 09:08:15 on ttys000
+andreidimaano@Andreis-MacBook-Pro ~ % cd Documents/Code/Personal-Projects/AlwaysOnTheGrind
+andreidimaano@Andreis-MacBook-Pro AlwaysOnTheGrind % ls
+12-portals-and-refs	eloquentjs		server-side-rendering-1
+adopt-me		redux			unit-test
+citr-v6-project-master	responsive website
+andreidimaano@Andreis-MacBook-Pro AlwaysOnTheGrind % mkdir d3Work
+andreidimaano@Andreis-MacBook-Pro AlwaysOnTheGrind % cd d3Work 
+andreidimaano@Andreis-MacBook-Pro d3Work % ls
+andreidimaano@Andreis-MacBook-Pro d3Work % mkdir face
+andreidimaano@Andreis-MacBook-Pro d3Work % cd face 
+andreidimaano@Andreis-MacBook-Pro face % touch index.html
+andreidimaano@Andreis-MacBook-Pro face % vim index.html
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>face</title>
+  </head>
+  <body>
+    <svg>
+      <circle r="100">
+      </circle>
+    </svg>
+  </body>
+</html>
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT -- 
