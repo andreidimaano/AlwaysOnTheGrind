@@ -22,7 +22,6 @@ public:
         }
         
         while(st.size()) {
-            cout << st.top() << endl;
             ans += st.top();
             st.pop();
         }
