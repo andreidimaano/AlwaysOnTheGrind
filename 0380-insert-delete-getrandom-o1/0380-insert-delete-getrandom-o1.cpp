@@ -28,7 +28,6 @@ public:
         
         // swap
         swap(numbers[indexOfVal], numbers[lastIndex]);
-        
         numIndexMap[lastIndexVal] = indexOfVal;
         numbers.pop_back();
         numIndexMap.erase(val);
